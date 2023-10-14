@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "Contact_Manager": {
+            "type": "custom",
+            "build": "npx azle Contact_Manager",
+            "root": "src",
+            "ts": "src/index.ts",
+            "candid": "src/index.did",
+            "wasm": ".azle/Contact_Manager/Contact_Manager.wasm.gz"
+        }
+    }
+}
+
